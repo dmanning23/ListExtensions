@@ -38,8 +38,8 @@ x64/
 .builds
 *.userprefs
 *.cachefile
-UpgradeLog.html
-UpgradeLog.htm
+*.apk
+*.nupkg
 
 # Visual C++ cache files
 ipch/
