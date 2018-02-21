@@ -1,2 +1,4 @@
+rm *.nupkg
 nuget pack .\ListExtensions.nuspec -IncludeReferencedProjects -Prop Configuration=Release
-nuget push *.nupkg
+cp *.nupkg C:\Projects\Nugets\
+nuget push *.nupkg -Source https://www.nuget.org/api/v2/package

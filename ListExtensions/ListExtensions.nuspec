@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>ListExtensions</id>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<title>ListExtensions</title>
 		<authors>dmanning23</authors>
 		<owners>dmanning23</owners>
@@ -25,7 +25,7 @@
 
 			<!--Win Universal-->
 			<group targetFramework="uap10.0">
-				<dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="5.1"/>
+				<dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="5.2"/>
 			</group>
 
 			<group targetFramework="net451">
@@ -47,9 +47,9 @@
 		<file src="ListExtensions.WindowsUniversal\bin\Release\ListExtensions.WindowsUniversal.pdb" target="lib\uap10.0\ListExtensions.WindowsUniversal.pdb" />
 		<file src="ListExtensions.WindowsUniversal\bin\Release\ListExtensions.WindowsUniversal.dll" target="lib\uap10.0\ListExtensions.WindowsUniversal.dll" />
 
-		<!--DesktopGL-->
-		<file src="ListExtensions.DesktopGL\bin\Release\ListExtensions.DesktopGL.pdb" target="lib\net451\ListExtensions.DesktopGL.pdb" />
-		<file src="ListExtensions.DesktopGL\bin\Release\ListExtensions.DesktopGL.dll" target="lib\net451\ListExtensions.DesktopGL.dll" />
+		<!--WindowsDX-->
+		<file src="ListExtensions.WindowsDX\bin\Release\ListExtensions.WindowsDX.pdb" target="lib\net451\ListExtensions.WindowsDX.pdb" />
+		<file src="ListExtensions.WindowsDX\bin\Release\ListExtensions.WindowsDX.dll" target="lib\net451\ListExtensions.WindowsDX.dll" />
 
 	</files>
 </package>
